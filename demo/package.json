@@ -8,7 +8,7 @@
     "license": "MIT",
     "scripts": {
         "dev": "cross-env NODE_ENV=development concurrently \"postcss css/tailwind.css -o build/tailwind.css --watch\"  \"live-server ./\"",
-        "build": "cross-env NODE_ENV=production postcss css/tailwind.css -o build/tailwind.css",
+        "build": "postcss css/tailwind.css -o build/tailwind.css",
         "lint:css": "stylelint css",
         "serve": "live-server ./"
     },
