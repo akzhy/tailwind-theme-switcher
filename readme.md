@@ -50,7 +50,7 @@ module.exports = {
         //....
         themes: {
             dark: {
-                bg: "#fff"
+                bg: "#000"
             }
         },
         colors: {
