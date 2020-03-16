@@ -20,12 +20,12 @@
         "tailwindcss": "^1.0",
         "postcss-cli": "^6.1.2",
         "postcss-import": "^12.0.1",
+        "cssnano": "^4.1.10",
         "@fullhuman/postcss-purgecss": "^1.2.0"
     },
     "devDependencies": {
         "concurrently": "^4.1.0",
         "cross-env": "^5.2.0",
-        "cssnano": "^4.1.10",
         "live-server": "^1.2.1",
         "stylelint": "^10.0.1",
         "stylelint-cli": "^1.1.0",
