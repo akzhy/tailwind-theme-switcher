@@ -9,6 +9,7 @@
     "scripts": {
         "dev": "cross-env NODE_ENV=development concurrently \"postcss css/tailwind.css -o build/tailwind.css --watch\"  \"live-server ./\"",
         "build": "postcss css/tailwind.css -o build/tailwind.css",
+        "build:prod": "cross-env NODE_ENV=production postcss css/tailwind.css -o build/tailwind.css",
         "lint:css": "stylelint css",
         "serve": "live-server ./"
     },
@@ -16,7 +17,8 @@
         "autoprefixer": "^9.5.1",
         "lodash": "^4.17.15",
         "tailwind-theme-switcher": "^0.0.0",
-        "tailwindcss": "^1.0"
+        "tailwindcss": "^1.0",
+        "postcss-cli": "^6.1.2"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^1.2.0",
