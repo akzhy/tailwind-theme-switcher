@@ -8,7 +8,6 @@
     "license": "MIT",
     "scripts": {
         "dev": "cross-env NODE_ENV=development concurrently \"postcss css/tailwind.css -o build/tailwind.css --watch\"  \"live-server ./\"",
-        "start": "npm run dev",
         "build": "cross-env NODE_ENV=production postcss css/tailwind.css -o build/tailwind.css",
         "lint:css": "stylelint css",
         "serve": "live-server ./"
