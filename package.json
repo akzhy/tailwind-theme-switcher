@@ -1,0 +1,13 @@
+{
+    "name": "tailwind-theme-switcher",
+    "version": "0.0.1",
+    "description": "A plugin to enable theme switching in the tailwind",
+    "main": "index.js",
+    "repository": "https://github.com/akzhy/tailwind-theme-switcher",
+    "author": "akzhy <akshay48884@gmail.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "lodash": "^4.17.15",
+        "tailwindcss": "^1.0"
+    }
+}
