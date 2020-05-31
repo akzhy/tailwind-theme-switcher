@@ -40,7 +40,8 @@ module.exports = function({ addUtilities, variants, theme, e }) {
         })
     });
 
-    addUtilities(utilities, variants(["backgroundColor", "borderColor","textColor","borderColor", "placeholderColor"]))
+
+    addUtilities(utilities, ["responsive", "hover", "focus"])
 
     function makeColorVariant(property, parent, th) {
         const colors = flattenColorPalette(themes[th]);
